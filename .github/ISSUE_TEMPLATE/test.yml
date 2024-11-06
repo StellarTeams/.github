@@ -1,6 +1,6 @@
-name: "✨ Feature Request"
-description: "Propose a new feature or enhancement"
-title: "[Feat]: "
+name: "✅ Test"
+description: "Add or modify tests"
+title: "[Test]: "
 labels: ["enhancement"]
 projects: "StellarTeams/4"
 body:
@@ -8,6 +8,6 @@ body:
     id: description
     attributes:
       label: "Description"
-      description: "Describe the feature or enhancement you would like"
+      description: "Describe the test scope and purpose, including what it will cover."
     validations:
       required: true

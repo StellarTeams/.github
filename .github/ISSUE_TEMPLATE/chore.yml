@@ -1,6 +1,6 @@
-name: "✨ Feature Request"
-description: "Propose a new feature or enhancement"
-title: "[Feat]: "
+name: "🔧 Chore"
+description: "Miscellaneous or non-functional task"
+title: "[Chore]: "
 labels: ["enhancement"]
 projects: "StellarTeams/4"
 body:
@@ -8,6 +8,6 @@ body:
     id: description
     attributes:
       label: "Description"
-      description: "Describe the feature or enhancement you would like"
+      description: "Describe the task or maintenance work to be done."
     validations:
       required: true

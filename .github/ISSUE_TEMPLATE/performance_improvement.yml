@@ -1,0 +1,13 @@
+name: "⚡️ Performance Improvement"
+description: "Propose specific changes to improve application performance or resource efficiency."
+title: "[Perf]: "
+labels: ["enhancement"]
+projects: "StellarTeams/4"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Describe the area of improvement and specific changes for enhancing performance."
+    validations:
+      required: true

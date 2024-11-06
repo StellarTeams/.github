@@ -1,0 +1,13 @@
+name: "📝 Documentation Change"
+description: "Update project documentation"
+title: "[Docs]: "
+labels: ["documentation"]
+projects: "StellarTeams/4"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Describe the documentation change and the affected sections."
+    validations:
+      required: true

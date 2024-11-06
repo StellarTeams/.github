@@ -1,38 +1,20 @@
-name: 🐛Bug Report
-description: File a bug report here
+name: "🐛 Bug Report"
+description: "Report a bug in the application"
 title: "[BUG]: "
 labels: ["bug"]
-assignees: []
+projects: "StellarTeams/4"
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report 🤗
-        Make sure there aren't any open/closed issues for this topic 😃
-
   - type: textarea
-    id: bug-description
+    id: description
     attributes:
-      label: Description of the bug
-      description: Give us a brief description of what happened and what should have happened
-    validations:
-      required: true
-
-  - type: textarea
-    id: steps-to-reproduce
-    attributes:
-      label: Steps To Reproduce
-      description: Steps to reproduce the behavior.
-      placeholder: |
-        1. Go to '...'
-        2. Click on '...'
-        3. Scroll down to '...'
-        4. See error
+      label: "Description"
+      description: "Briefly describe the bug, expected behavior, and actual behavior."
     validations:
       required: true
   - type: textarea
-    id: additional-information
+    id: steps_to_reproduce
     attributes:
-      label: Additional Information
-      description: |
-        Provide any additional information such as logs, screenshots, likes, scenarios in which the bug occurs so that it facilitates resolving the issue.
+      label: "Steps to Reproduce"
+      description: "Provide steps to reproduce the bug."
+    validations:
+      required: false

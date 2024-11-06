@@ -1,6 +1,6 @@
-name: "✨ Feature Request"
-description: "Propose a new feature or enhancement"
-title: "[Feat]: "
+name: "👷 Build System"
+description: "Suggest a build or CI/CD update"
+title: "[Build]: "
 labels: ["enhancement"]
 projects: "StellarTeams/4"
 body:
@@ -8,6 +8,6 @@ body:
     id: description
     attributes:
       label: "Description"
-      description: "Describe the feature or enhancement you would like"
+      description: "Describe the build or CI/CD change and any potential impacts."
     validations:
       required: true
